@@ -1,0 +1,15 @@
+interface Command
+
+Light
+	KitchenLightOffCommand  --is a --> Command &
+	KitchenLightOnCommand   --has a --> Light
+
+	LivingroomLightOffCommand  --is a --> Command &
+	LivingroomLightOnCommand   --has a --> Light
+
+CeilingFan
+	CeilingFanOffCommand       --is a --> Command &
+	CeilingFanOnCommand	   --has a --> CeilingFan	
+	
+
+
